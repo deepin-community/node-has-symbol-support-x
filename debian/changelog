@@ -1,0 +1,12 @@
+node-has-symbol-support-x (1.4.1+dfsg-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 15:07:34 +0100
+
+node-has-symbol-support-x (1.4.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #874506)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 06 Sep 2017 22:07:02 +0530

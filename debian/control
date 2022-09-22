@@ -1,0 +1,23 @@
+Source: node-has-symbol-support-x
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 4.1.0
+Homepage: https://github.com/Xotic750/has-symbol-support-x
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-has-symbol-support-x.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-has-symbol-support-x.git
+
+Package: node-has-symbol-support-x
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Tests if ES6 Symbol is supported
+ This library is a dependency of npm and gitlab.
+ .
+ Node.js is an event-based server-side JavaScript engine.
